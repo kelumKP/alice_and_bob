@@ -17,13 +17,13 @@ namespace Bob_Console_App
             RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
             IEncryptDecryptService encDecSvc = new EncryptDecryptService();
 
-            string bob_public_key_file_path = @"C:\\Users\\Kelum Rubasin\\Documents\\Visual Studio 2017\\Projects\\Alice_and_Bob\\Bob_Console_App\\keys\\bob_public_key.txt";
+            string bob_public_key_file_path = @"C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Bob_Console_App\keys\bob_public_key.txt";
             string bob_publicKey = File.ReadAllText(bob_public_key_file_path);
 
-            string bob_private_key_file_path = @"C:\\Users\\Kelum Rubasin\\Documents\\Visual Studio 2017\\Projects\\Alice_and_Bob\\Bob_Console_App\\keys\\bob_private_key.txt";
+            string bob_private_key_file_path = @"C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Bob_Console_App\keys\bob_private_key.txt";
             string bob_privateKey = File.ReadAllText(bob_private_key_file_path);
 
-            string encryptFilePath = @"C:\\Users\\Kelum Rubasin\\Documents\\Visual Studio 2017\\Projects\\Alice_and_Bob\\Bob_Console_App\\bin\\Debug\\encryptedData.dat";
+            string encryptFilePath = @"C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Bob_Console_App\bin\Debug\encryptedData.dat";
             string encryptFile = File.ReadAllText(encryptFilePath); 
 
             if (string.IsNullOrEmpty(bob_publicKey) || string.IsNullOrEmpty(bob_privateKey))
