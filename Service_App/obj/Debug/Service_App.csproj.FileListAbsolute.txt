@@ -1,0 +1,6 @@
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\obj\Debug\Service_App.csprojAssemblyReference.cache
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\obj\Debug\Service_App.csproj.CoreCompileInputs.cache
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\bin\Debug\Service_App.dll
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\bin\Debug\Service_App.pdb
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\obj\Debug\Service_App.dll
+C:\Users\Kelum Rubasin\Documents\Visual Studio 2017\Projects\Alice_and_Bob\Service_App\obj\Debug\Service_App.pdb
