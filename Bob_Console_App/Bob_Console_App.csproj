@@ -48,6 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\encryptedData.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="keys\bob_public_key.txt" />
+    <Content Include="keys\bob_private_key.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Service_App\Service_App.csproj">
+      <Project>{8f2911f5-0559-48fe-bc13-98c1c1af2a97}</Project>
+      <Name>Service_App</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

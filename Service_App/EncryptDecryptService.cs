@@ -22,7 +22,7 @@ namespace Service_App
                 using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider())
                 {
                     rsa.FromXmlString(receiver_publicKey);
-                    encryptedData = rsa.Encrypt(dataToEncrypt, false);
+                    encryptedData = rsa.Encrypt(dataToEncrypt, false);                        
                     File.WriteAllBytes(encryptFileName, encryptedData);
                     string encryptedText = Encoding.UTF8.GetString(encryptedData);
                 }
